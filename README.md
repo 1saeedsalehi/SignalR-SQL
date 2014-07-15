@@ -1,10 +1,10 @@
-# SignalR-SQL
+SignalR-SQL
 ===========
 SignalR + SqlDependency
 Simple example of Show Real Time Sql Server database change Notification in ASP .Net using SignalR and Sql Dependency
 
 # Database Settings:
------
+
 1 - We need to enable the Service Broker on database
 To enable service broker on SqlSignalRDB database:
 
@@ -17,7 +17,7 @@ GO
 GRANT SUBSCRIBE QUERY NOTIFICATIONS TO “Domain\ASPNET”
 
 #Example Database:
------
+
 
 
 ```
@@ -34,3 +34,5 @@ CREATE TABLE [dbo].[Info](
 
 GO
 ```
+# How To Run Example
+Open http://localhost:44300/home/status and test it :-)
