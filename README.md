@@ -19,6 +19,8 @@ GRANT SUBSCRIBE QUERY NOTIFICATIONS TO “Domain\ASPNET”
 #Example Database:
 -----
 
+
+```
 CREATE TABLE [dbo].[Info](
 	[Id] [int] NOT NULL,
 	[Name] [nvarchar](50) NULL,
@@ -31,3 +33,4 @@ CREATE TABLE [dbo].[Info](
 ) ON [PRIMARY]
 
 GO
+```
